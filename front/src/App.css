@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "fontBold";
+  src: url("./font/KBO\ Dia\ Gothic_bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "fontMedium";
+  src: url("./font/KBO\ Dia\ Gothic_medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "fontLight";
+  src: url(./font/KBO\ Dia\ Gothic_light.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  width: 60%;
+  height: 80%;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-family: "fontLight";
+}

@@ -1,0 +1,38 @@
+.searchWrap {
+  margin: 10px;
+}
+
+.searchCenter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputBoxSize {
+  width: 1000px;
+  height: 35px;
+  background-color: rgb(237, 237, 237);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.searchNavbar {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchTodo {
+  border-bottom: 4px solid black;
+  font-weight: bold;
+}
+
+.searchContent {
+  width: 970px;
+  height: 100vh;
+  margin-left: 170px;
+}

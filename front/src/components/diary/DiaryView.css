@@ -1,0 +1,33 @@
+.diary-view-box {
+  width: 90%;
+  margin: 35px auto 145px;
+}
+
+.diary-view-title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  font-family: "fontMedium";
+}
+
+.diary-viewer {
+  min-height: 400px;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.diary-view-btns {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.diary-view-btns button {
+  margin: 0 5px;
+  background-color: #4f4f4f; /* 무채색 배경 */
+  border: none; /* 테두리 제거 */
+  color: #ffffff; /* 글자 색 */
+  padding: 10px 20px; /* 패딩 */
+  border-radius: 12px; /* 둥근 모서리 */
+  transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과 */
+}
