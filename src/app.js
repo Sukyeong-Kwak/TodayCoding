@@ -21,10 +21,10 @@ app.use(history());
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-app.use(express.static(path.join(__dirname, "../front/build")));
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../front/build/index.html"));
-});
+// app.use(express.static(path.join(__dirname, "../front/build")));
+// app.get("/", function (req, res) {
+//   res.sendFile(path.join(__dirname, "../front/build/index.html"));
+// });
 
 app.use("/api", userRouter);
 app.use("/api", todoRouter);
